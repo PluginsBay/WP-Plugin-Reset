@@ -74,7 +74,7 @@
 								//ad
 								$link_ad       = sprintf( admin_url( 'index.php?wppluginreset=%s&wppluginreset_mode=%s' ), esc_attr( $plugin ), 'ad' );
 								$link_ad_nonce = wp_nonce_url( $link_ad, 'wppluginreset', 'wppluginreset_nonce' );
-								$links[]       = '<a title="' . esc_html__( 'Activate + Deactivate', 'wppluginreset' ) . '" href="' . esc_url( $link_ad_nonce ) . '">' . esc_html__( 'ReSleep', 'wppluginreset' ) . '</a>';
+								$links[]       = '<a title="' . esc_html__( 'Activate + Deactivate', 'wppluginreset' ) . '" href="' . esc_url( $link_ad_nonce ) . '">' . esc_html__( 'Resleep', 'wppluginreset' ) . '</a>';
 							}
 
 						}
